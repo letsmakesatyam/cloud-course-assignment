@@ -24,4 +24,4 @@ jobs:
 
       - name: Deploy files to GCS Bucket
         run: |
-          gsutil -m rsync -r -d . gs://cloud-course-24102a0035
+          gsutil -m rsync -r -d . gs://cloud-course-satyam
